@@ -8,10 +8,6 @@ layout: default
     <h2 class='title'><a href='{{ post.url }}'>{{ post.title }}</a></h2>
     <div id='left'>
       <div class='copy'>{{ post.content }}</div>
-      <ul class='share'>
-        <li><a id='twitter' target='_blank' href='http://twitter.com/intent/tweet?status=tristen: tristen.ca{{post.url}}'>Twitter</a></li>
-        <li><a id='rss' target='_blank' href='http://feeds.feedburner.com/fallsemo'>Subscribe</a></li>
-      </ul>
     </div>
     <div id='right'>
       <div class='date' datetime='{{ page.date | date: '%Y-%m-%d' }}'>
